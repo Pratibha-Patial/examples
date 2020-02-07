@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Selectors in javascript</title>
+</head>
+<body>
+<p class="selectByClass"></p>
+<p id="selectById"></p>
+<p></p>
+<script>
+document.getElementById('selectById').innerHTML="Selected by Id";
+document.getElementsByClassName('selectByclass')[0].innerHTML="Selected by Class Name";
+document.getElementByTagName('p')[0].innerHTML="Selected by Tag Name";
+</script>
+</body>
+</html>
